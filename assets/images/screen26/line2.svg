@@ -1,0 +1,20 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="264px" height="40px" viewBox="0 0 264 40">
+<defs>
+<g id="tab_3_0_Layer0_0_FILL">
+<path fill="#2F3D73" stroke="none" d="
+M 253.25 3
+L 253.25 0 -0.05 0 -0.05 3 253.25 3 Z"/>
+
+<path fill="#11162B" stroke="none" d="
+M 253.25 40
+L 253.25 3 -0.05 3 -0.05 40 253.25 40 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1.0450439453125, 0, 0, -1, 0,40) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#tab_3_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

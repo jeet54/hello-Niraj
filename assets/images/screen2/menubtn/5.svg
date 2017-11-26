@@ -1,0 +1,93 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="150px" height="25px" viewBox="0 0 150 25">
+<defs>
+<linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="88.65" y1="-5.4" x2="88.65" y2="6.700000000000001" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF"/>
+
+<stop  offset="100%" stop-color="#000000"/>
+</linearGradient>
+
+<linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="60.15" y1="-5.4" x2="60.15" y2="6.700000000000001" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF"/>
+
+<stop  offset="100%" stop-color="#000000"/>
+</linearGradient>
+
+<linearGradient id="Gradient_3" gradientUnits="userSpaceOnUse" x1="-1.5" y1="-2.9000000000000004" x2="-1.5" y2="3.9000000000000004" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF"/>
+
+<stop  offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+
+<linearGradient id="Gradient_4" gradientUnits="userSpaceOnUse" x1="-35.5" y1="-2.9000000000000004" x2="-35.5" y2="3.9000000000000004" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF"/>
+
+<stop  offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+
+<filter id="Filter_1" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.2 0" result="result1"/>
+</filter>
+
+<g id="buttons_nav_1_0_Layer3_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 83.25 0
+L 83.3 0 83.3 -0.05 83.25 0 Z"/>
+
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 146.65 -0.05
+L 83.3 -0.05 83.3 0 83.25 0 3.6 -0.05
+Q 2.110546875 -0.0248046875 1 1.5 0.1576171875 2.8833984375 0 4.65 0.001171875 5.0052734375 0 5.35
+L 0 20.15
+Q -0.0033203125 22.39921875 1 23.95 2.110546875 25.5708984375 3.6 25.55
+L 54.8 25.55 55.45 24.95 54.8 25.6 146.65 25.55
+Q 148.13671875 25.5708984375 149.15 23.95 150.2505859375 22.39921875 150.25 20.15
+L 150.25 5.35
+Q 150.2505859375 3.1341796875 149.15 1.5 148.13671875 -0.0248046875 146.65 -0.05 Z"/>
+</g>
+
+<g id="graphics_btn_color_0_Layer1_0_FILL">
+<path fill="#0F1224" stroke="none" d="
+M 67.1 -4.75
+Q 67.1 -6.4 65.9 -7.6 64.75 -8.75 63.1 -8.75
+L -63.15 -8.75
+Q -64.8 -8.75 -66 -7.6 -67.15 -6.4 -67.15 -4.75
+L -67.15 4.75
+Q -67.15 6.4 -66 7.55 -64.8 8.75 -63.15 8.75
+L 63.1 8.75
+Q 64.75 8.75 65.9 7.55 67.1 6.4 67.1 4.75
+L 67.1 -4.75 Z"/>
+</g>
+
+<g id="graphics_top_light_0_Layer0_0_FILL">
+<path fill="url(#Gradient_3)" stroke="none" d="
+M -62.65 -2.75
+Q -64.3 -2.75 -65.5 -1.6 -66.65 -0.4 -66.65 1.25
+L -66.65 2.75 -40.4 2.75 -40.4 -2.75 -62.65 -2.75 Z"/>
+
+<path fill="url(#Gradient_4)" stroke="none" d="
+M 31.4 -1.6
+Q 30.25 -2.75 28.6 -2.75
+L -40.4 -2.75 -40.4 2.75 32.6 2.75 32.6 1.25
+Q 32.6 -0.4 31.4 -1.6 Z"/>
+</g>
+</defs>
+
+<g id="b1" transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#buttons_nav_1_0_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1.1058349609375, 0, 0, 1.347503662109375, 75.15,12.45) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#graphics_btn_color_0_Layer1_0_FILL"/>
+</g>
+</g>
+
+<g id="top_light" transform="matrix( 1.4961395263671875, 0, 0, 1.347503662109375, 100.45,4.35) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#graphics_top_light_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

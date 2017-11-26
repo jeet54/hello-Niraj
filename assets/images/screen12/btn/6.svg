@@ -1,0 +1,230 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
+<defs>
+<linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="9.2" y1="-1.7763568394002505e-15" x2="9.2" y2="18.4" spreadMethod="pad">
+<stop  offset="0%" stop-color="#CCCCCC"/>
+
+<stop  offset="100%" stop-color="#CCFFFF"/>
+</linearGradient>
+
+<linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="9.2" y1="0.9999999999999982" x2="9.2" y2="17.4" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF" stop-opacity="0.24705882352941178"/>
+
+<stop  offset="56.86274509803921%" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+
+<linearGradient id="Gradient_3" gradientUnits="userSpaceOnUse" x1="9.2" y1="0.9999999999999982" x2="9.2" y2="17.4" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF" stop-opacity="0.4980392156862745"/>
+
+<stop  offset="56.86274509803921%" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+
+<linearGradient id="Gradient_4" gradientUnits="userSpaceOnUse" x1="9.2" y1="0.9999999999999982" x2="9.2" y2="17.4" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF" stop-opacity="0.7490196078431373"/>
+
+<stop  offset="56.86274509803921%" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+
+<linearGradient id="Gradient_5" gradientUnits="userSpaceOnUse" x1="9.2" y1="0.9999999999999982" x2="9.2" y2="17.4" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF"/>
+
+<stop  offset="56.86274509803921%" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+
+<filter id="Filter_1" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0" result="result1"/>
+</filter>
+
+<filter id="Filter_2" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.47 0" result="result1"/>
+</filter>
+
+<g id="selectionRect_0_Layer0_0_FILL">
+<path fill="#FFFF00" stroke="none" d="
+M 62 14
+L 62 -15 -18 -15 -18 14 62 14 Z"/>
+</g>
+
+<g id="buttons_check_butt_0_Layer7_0_FILL">
+<path fill="#000000" stroke="none" d="
+M 13.4 0.5
+L 5 0.5
+Q 0 0.5 0 5.5
+L 0 13.9
+Q 0 18.9 5 18.9
+L 13.4 18.9
+Q 18.4 18.9 18.4 13.9
+L 18.4 5.5
+Q 18.4 0.5 13.4 0.5 Z"/>
+</g>
+
+<g id="buttons_check_butt_0_Layer6_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 12.4 -1.65
+L 4 -1.65
+Q -1 -1.65 -1 3.35
+L -1 11.75
+Q -1 16.75 4 16.75
+L 12.4 16.75
+Q 17.4 16.75 17.4 11.75
+L 17.4 3.35
+Q 17.4 -1.65 12.4 -1.65 Z"/>
+</g>
+
+<g id="buttons_check_butt_0_Layer5_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 5 0
+Q 0 0 0 5
+L 0 13.4
+Q 0 18.4 5 18.4
+L 13.4 18.4
+Q 18.4 18.4 18.4 13.4
+L 18.4 5
+Q 18.4 0 13.4 0
+L 5 0 Z"/>
+</g>
+
+<g id="graphics_highlight4_0_Layer0_0_FILL">
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 17.9 6
+Q 17.9 0.5 12.4 0.5
+L 6 0.5
+Q 0.5 0.5 0.5 6
+L 0.5 12.4
+Q 0.5 17.9 6 17.9
+L 12.4 17.9
+Q 17.9 17.9 17.9 12.4
+L 17.9 6
+M 12.4 0.6
+Q 17.775 0.625 17.75 6
+L 17.75 12.4
+Q 17.775 17.775 12.4 17.75
+L 6 17.75
+Q 0.625 17.775 0.6 12.4
+L 0.6 6
+Q 0.625 0.625 6 0.6
+L 12.4 0.6 Z"/>
+
+<path fill="url(#Gradient_3)" stroke="none" d="
+M 17.75 6
+Q 17.775 0.625 12.4 0.6
+L 6 0.6
+Q 0.625 0.625 0.6 6
+L 0.6 12.4
+Q 0.625 17.775 6 17.75
+L 12.4 17.75
+Q 17.775 17.775 17.75 12.4
+L 17.75 6
+M 12.4 0.75
+Q 17.65 0.75 17.65 6
+L 17.65 12.4
+Q 17.65 17.65 12.4 17.65
+L 6 17.65
+Q 0.75 17.65 0.75 12.4
+L 0.75 6
+Q 0.75 0.75 6 0.75
+L 12.4 0.75 Z"/>
+
+<path fill="url(#Gradient_4)" stroke="none" d="
+M 17.65 6
+Q 17.65 0.75 12.4 0.75
+L 6 0.75
+Q 0.75 0.75 0.75 6
+L 0.75 12.4
+Q 0.75 17.65 6 17.65
+L 12.4 17.65
+Q 17.65 17.65 17.65 12.4
+L 17.65 6
+M 12.4 0.85
+Q 17.525 0.875 17.5 6
+L 17.5 12.4
+Q 17.525 17.525 12.4 17.5
+L 6 17.5
+Q 0.875 17.525 0.85 12.4
+L 0.85 6
+Q 0.875 0.875 6 0.85
+L 12.4 0.85 Z"/>
+
+<path fill="url(#Gradient_5)" stroke="none" d="
+M 17.5 6
+Q 17.525 0.875 12.4 0.85
+L 6 0.85
+Q 0.875 0.875 0.85 6
+L 0.85 12.4
+Q 0.875 17.525 6 17.5
+L 12.4 17.5
+Q 17.525 17.525 17.5 12.4
+L 17.5 6 Z"/>
+</g>
+
+<g id="tick_0_Layer0_0_FILL">
+<path fill="#000000" stroke="none" d="
+M 4.3 -6.25
+Q 3.9041015625 -6.1005859375 3.65 -5.7
+L -1.2 2.95 -3.65 -1.15
+Q -3.883203125 -1.553125 -4.3 -1.65 -4.7314453125 -1.7451171875 -5.1 -1.5 -5.464453125 -1.20234375 -5.55 -0.75 -5.640234375 -0.2669921875 -5.4 0.1
+L -2 5.75
+Q -1.7951171875 6.08046875 -1.45 6.2 -1.1001953125 6.3326171875 -0.75 6.2 -0.4119140625 6.0513671875 -0.25 5.7
+L 5.45 -4.5
+Q 5.702734375 -4.871484375 5.6 -5.35 5.5109375 -5.794140625 5.15 -6.05 4.763671875 -6.32109375 4.3 -6.25 Z"/>
+</g>
+
+<g id="cross_0_Layer0_0_FILL">
+<path fill="#000000" stroke="none" d="
+M 1.35 -0.3
+L 4.65 -5.25
+Q 4.9703125 -5.6755859375 4.9 -6.2 4.85234375 -6.710546875 4.45 -7.05 4.1314453125 -7.341796875 3.7 -7.3 3.225390625 -7.196484375 2.9 -6.8
+L -0.15 -2.2 -3.05 -5.95
+Q -3.3087890625 -6.3509765625 -3.75 -6.4 -4.2033203125 -6.439453125 -4.55 -6.1 -4.9328125 -5.7642578125 -5 -5.25 -4.9931640625 -4.7541015625 -4.65 -4.4
+L -1.45 -0.2 -5.05 5.3
+Q -5.3224609375 5.7689453125 -5.25 6.3 -5.1890625 6.78984375 -4.85 7.05 -4.452734375 7.3802734375 -4 7.3 -3.5462890625 7.2169921875 -3.3 6.8
+L 0.05 1.75 3.3 5.9
+Q 3.6107421875 6.276953125 4.05 6.3 4.5181640625 6.3623046875 4.85 6.05 5.22109375 5.6982421875 5.25 5.15 5.2791015625 4.662890625 4.95 4.25
+L 1.35 -0.3 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 2.75,2.5) ">
+<g transform="matrix( 0.304962158203125, 0, 0, 0.8344879150390625, 9.45,9.6) ">
+<g transform="matrix( 1, 0, 0, 1, -22,0.5) ">
+<use filter="url(#Filter_1)" xlink:href="#selectionRect_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0.5) ">
+<use filter="url(#Filter_2)" xlink:href="#buttons_check_butt_0_Layer7_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 1,1.65) ">
+<use filter="url(#Filter_2)" xlink:href="#buttons_check_butt_0_Layer6_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_2)" xlink:href="#buttons_check_butt_0_Layer5_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0.5,0.5) ">
+<g transform="matrix( 1, 0, 0, 1, -0.5,-0.5) ">
+<use filter="url(#Filter_2)" xlink:href="#graphics_highlight4_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="theTick" transform="matrix( 1, 0, 0, 1, 9.6,10.25) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#tick_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="theCross" transform="matrix( 1, 0, 0, 1, 9.4,10.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#cross_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0.5,0.5) ">
+<g transform="matrix( 1, 0, 0, 1, -0.5,-0.5) ">
+<use filter="url(#Filter_2)" xlink:href="#graphics_highlight4_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>
