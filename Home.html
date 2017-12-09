@@ -1,148 +1,59 @@
-<!DOCTYPE html>  
-<html>  
-<head>  
- <title>Angular JS Includes</title>  
-    <style>  
-	div
-	{
-		width:100%;
-		height:100%;
-		background-color:cyan;
-	}
-	    table, th , td {  
-            border: 1px solid grey;  
-            border-collapse: collapse;  
-            padding: 5px;  
-         }  
-           
-         table tr:nth-child(odd) {  
-            background-color: #f2f2f2;  
-         }  
-           
-         table tr:nth-child(even) {  
-            background-color: #ffffff;  
-         }  
-      </style>  
-   </head>  
-   <body>
-   
-      <div ng-app = "" ng-controller = "employeeController">  
-  
-	      <h2>AngularJS Sample Application</h2> 
-		  <h2>The Resposne is : {{resp}}   </h2> 
-		  
-		  <table>
-				<thead>
-				<tr> <td> Name </td> <td> Mobile Number </td> <td> Feed Back </td>  <tr>
-				</thead>
-				<tbody>
-				<tr> 
-					<td> 
-						<input type="text" name="myname" ng-model="myname"> </input>
-					</td>
-					<td> 
-						<input type="text" name="mycity" ng-model="mycity"> </input>
-					</td>
-					<td> 
-					<textarea rows="4" cols="50" name="mycountry" ng-model="mycountry"> </textarea>
-					</td>  
-					<tr>
-				</tbody>
-				<tfoot>
-				<tr >
-				<td colspan="3" align="center"> Footer  </td>
-				</tr>
-				</tfoot>
-		  </table>
-		  <button ng-click="save()"> Save </button>
-		   <button ng-click="open()"> Open </button>
-		  <hr>
-		<p>  
-		</p>
-         <table>  
-            <tr>  
-               <th>Name</th>  
-               <th>City</th>  
-               <th>Country</th> 
-			   <th>ID</th> 			   
-            </tr>  
-           
-		   
-		 <tr ng-repeat="emp in employees">
-			<td ng-bind="emp.name">  </td>
-			<td ng-bind="emp.city">  </td>
-			<td ng-bind="emp.country" >  </td>
-			<td ng-bind="emp._id" > </td>
-			<td> <button ng-click="update(emp)"> Edit </button>  </td>
-			<td> <button ng-click="delete(emp)"> Delete </button>  </td>
+<html>
+<head>
+    <title> Title of the web page </title>
+	<style>
+		
 			
-</tr>			 
-         </table>  
-      </div>  
-      <script>  
-         function employeeController($scope,$http) {  
-		 $scope.employees=[];
-		 $scope.save = function()
-		 {
-		 
-          	  var data = {name:$scope.myname,city:$scope.mycity,country:$scope.mycountry};
-		     var url = "http://10.17.31.163:8081/mydata?name="+$scope.myname+"&city="+$scope.mycity+"&country="+$scope.mycountry;  
-            $http.get(url).success( function(req,res) 
-			{  
-					data = "";
-					$scope.myname="",$scope.mycity="",$scope.mycountry="";
-					$scope.resp = res;
-			});
-		}
-		
-		
-		$scope.open = function()
-		 {
-		     var url = "http://10.17.31.163:8081/open";  
-            $http.get(url).success( function(response) 
-			{  
-				$scope.employees=response;
-			   
-            });
-		}
-		
-
-		$scope.update = function(e)
-		 {
-			alert("UPDATE " + e._id);
-			
-			$scope.myname=e.name;
-			$scope.mycity=e.city;
-			$scope.mycountry=e.country;
-					
-			
-				
-		}
-		
-			$scope.delete = function(e)
+			.main
 			{
-				
-				
-				var idd = e.name;
-				var url = "http://10.17.31.163:8081/deletedata?name="+idd;
-				alert(url);
-            $http.get(url).success( function(req,res) 
-			{  
-					
-			});
-				
+				background-color:yellow;
 			}
-			
 		
 		
-         }  
-      </script>  
-        
-      <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>  
-      
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		@media screen and (max-width:400px) and (orientation : landscape)
+		{
+			.main
+			{
+					background-color:red;
+			}
 		
 		
-   </body>  
-</html>  
+		}
+		
+		@media screen and (max-width:400px) and (orientation : portrait)
+		{
+			.main
+			{
+					background-color:black;
+			}
+		
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
+		
+		
+		
+			
+			
+			
+	</style>
+	
+</head>
+<body class="main"> 
+	
+	
+	
+	
+</body>
+</html>
