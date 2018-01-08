@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+
+
+
+</head>
+
+
+
+<body>
+<img src="assets/images/img.png" alt="Smiley face" style="float:left;width:400px;height:200px;">
+<span>
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+</br>
+</br>
+
+Please use the CSS float property. The align attribute is deprecated in HTML 4, and not supported in HTML5.</p>
+</span>
+
+
+<div class="buttondiv">
+
+<button  onClick="pop()"> Click to POP </button>
+
+<p id="t"> </p>   
+</div>
+
+<div class="footer">
+<marquee> Copy Right </marquee>
+
+</div>
+
+
+
+</body>
+
+<script>
+var txt;
+
+function pop()
+{
+var person = prompt("Please enter your name", "Harry Potter");
+
+if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+} else {
+    txt = "Hello " + person + "! How are you today?";
+}
+
+
+
+
+var x = document.getElementById("t");
+x.innerHTML=txt;
+
+
+
+
+}
+
+</script>
+
+</html>
