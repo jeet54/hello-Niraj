@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+#dis 
+{
+ display:block;
+}
+
+#d1
+{
+display:block;
+}
+
+</style>
+</head>
+<body>
+<div id="d1">
+
+<form name="myform" onsubmit="return validate()" action="display.html" method="get">
+
+<table id="customers">
+  <tr>
+    <th>Transaction ID   </th>
+    <th>Product Name    </th>
+    <th>Product price    </th>
+	<th>Product Quantity</th>
+	<th>Customer Name </th>
+	<th>Customer Gender </th>
+	<th>Customer DOB </th>
+	<th>Customer City </th>
+	<th>Customer State   </th>
+	<th>Customer Country </th>
+	
+	
+  </tr>
+  <tr>
+    <td><input type="text" name="TransactionID"> </td>
+    <td><input type="text" name="ProductName"> </td>
+	<td><input type="number" name="Productprice"> </td>
+	<td><input type="number" name="ProductQuantity"> </td>
+	<td><input type="text" name="CustomerName"> </td>
+	<td><input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other </td>
+	<td><input type="date" name="CustomerDOB"> </td>
+	<td><input type="text" name="CustomerCity"> </td>
+	<td><input type="text" name="CustomerState"> </td>
+	<td><input type="text" name="CustomerCountry"> </td>
+				
+	
+	
+  </tr>
+  <tr>
+  <td>
+  <button type="submit"> Display </button>
+  </td>
+  </tr>
+  
+</table>
+
+
+</div>
+
+</form>
+
+
+<script>
+
+	function validate()
+	{
+		var TransactionID = document.forms["myform"]["TransactionID"].value;
+		var ProductName = document.forms["myform"]["ProductName"].value;
+		
+		var Productprice = document.forms["myform"]["Productprice"].value;
+		
+		var ProductQuantity = document.forms["myform"]["ProductQuantity"].value;
+		
+		var CustomerName = document.forms["myform"]["CustomerName"].value;
+		
+		
+		var gender = document.forms["myform"]["gender"].value;
+		
+		var CustomerDOB = document.forms["myform"]["CustomerDOB"].value;
+		
+		
+		var CustomerCity = document.forms["myform"]["CustomerCity"].value;
+		
+		var CustomerState = document.forms["myform"]["CustomerState"].value;
+		
+		var CustomerCountry = document.forms["myform"]["CustomerCountry"].value;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		if(TransactionID == null || TransactionID == "")
+		{		
+				alert(" pls Enter the Transaction ID"); 
+			return false;
+		}
+		else if(ProductName == null || ProductName == "")
+		{		
+				alert(" pls Enter the Product Name"); 
+			return false;
+		}
+		else if(Productprice == null || Productprice == "")
+		{		
+				alert(" pls Enter the Product price"); 
+			return false;
+		}
+		else if(ProductQuantity == null || ProductQuantity == "")
+		{		
+				alert(" pls Enter the Product Quantity"); 
+			return false;
+			
+		}
+		else if(CustomerName == null || CustomerName == "")
+		{		
+				alert(" pls Enter the Customer Name"); 
+			return false;
+				
+		}
+		else if(gender == null || gender == "")
+		{		
+				alert(" pls Select the Customer gender"); 
+			return false;
+			
+		}
+		else if(CustomerDOB == null || CustomerDOB == "")
+		{		
+				alert(" pls Enter the Customer DOB"); 
+			return false;
+			
+		}
+		else if(CustomerCity == null || CustomerCity == "")
+		{		
+				alert(" pls Enter the Customer City"); 
+			return false;
+			
+		}
+		
+		else if(CustomerState == null || CustomerState == "")
+		{		
+				alert(" pls Enter the Customer State"); 
+			return false;
+			
+		}
+		else if(CustomerCountry == null || CustomerCountry == "")
+		{		
+				alert(" pls Enter the Customer Country"); 
+			return false;
+			
+		}
+		else
+		{
+		return true;
+		}
+		
+	
+	
+	
+	
+
+	}
+
+
+
+</script>
+
+
+
+
+</body>
+
+</html>

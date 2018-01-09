@@ -1,0 +1,133 @@
+<html>
+<head>
+<title> Details </title>
+
+<style>
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#dis 
+{
+ display:block;
+}
+
+#d1
+{
+display:block;
+}
+
+</style>
+
+</head>
+<body>
+
+
+
+
+<div id="dis">
+
+
+<table id="customers">
+
+
+<tr> <th> Customer Name </th> <td>   <span id="CustomerName"> </span> </td></tr>
+<tr> <th>  Product Name  </th><td> <span id="ProductName">  </span> </td> </tr> 
+<tr> <th>  Product price  </th><td> <span id="Productprice">  </span> </td> </tr> 
+<tr> <th>  Product Quantity  </th><td> <span id="ProductQuantity">  </span> </td> </tr> 
+<tr> <th>  Customer Country  </th><td> <span id="CustomerCountry">  </span> </td> </tr> 
+<tr> <th>  ---------------  </th><th> ---------------- </th> </tr> 
+<tr> <th>  Discount  </th><td> <span id="discount">  </span> </td> </tr> 
+<tr> <th>  Total Price  </th><td> <span id="totalprice">  </span> </td> </tr> 
+<tr> <th>  Actual Price   </th><td> <span id="actualprice">  </span> </td> </tr> 
+
+
+<table>
+</div>
+
+<script>
+	var params = {};
+	
+    var param_array = window.location.href.split('?')[1].split('&');
+	
+    for(var i in param_array){
+        x = param_array[i].split('=');
+        params[x[0]] = x[1];
+    }
+   
+   
+   document.getElementById("CustomerName").innerHTML=params.CustomerName;
+   document.getElementById("ProductName").innerHTML=params.ProductName;
+   document.getElementById("Productprice").innerHTML=params.Productprice;
+   document.getElementById("ProductQuantity").innerHTML=params.ProductQuantity;
+   document.getElementById("CustomerCountry").innerHTML=params.CustomerCountry;
+   
+   
+   var price = parseInt(params.Productprice);
+   var qty = parseInt(params.ProductQuantity);
+   var country = params.CustomerCountry;
+   alert(country);
+   
+   var totalprice = price * qty;
+   
+   var discount=0;
+    
+	if(country.toUpperCase() == "INDIA")
+	{   
+	 discount = (totalprice * 10 )/100;
+	}
+	
+	if(country.toUpperCase() == "USA")
+	{   
+	 discount = (totalprice * 5 )/100;
+	}
+
+   var actualprice = totalprice - discount;
+   
+   
+   
+   
+   
+   
+   document.getElementById("totalprice").innerHTML=totalprice;
+   document.getElementById("discount").innerHTML=discount;
+   document.getElementById("actualprice").innerHTML=actualprice;
+   
+   
+   
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+	
+
+</script>
+
+
+</body>
+
+</html>
