@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  
+      <script src="assets/jslib/jquery-3.3.1.min.js"></script>
+      <script src="assets/jslib/angular.min.js"></script>	
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <script src="assets/js/myAng.js"></script>
+      <script src="assets/js/myJquery.js"></script>
+
+
+
+
+</head>
+<body ng-app="myApp">
+
+
+<div class="container" style="border:2px red solid" ng-controller="myCtr1">
+  <h2>Table</h2>
+  <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>                                                                                      
+  <div class="table-responsive">  
+
+	<table class="table">        
+	<thead>
+	<tr>
+		<th> Employee Id</th>
+	    	<th> Employee Firstname</th>
+	 	<th> Employee Lastname</th>
+		<th> Employee Age</th>
+		<th> Employee City</th>	
+		<th> Employee Country</th>
+        </tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> <input type="text" ng-model="employeeid" >   </td>	
+			<td> <input type="text" ng-model="employeeFirstname" > </td>	
+			<td> <input type="text" ng-model="employeeLastname" >   </td>	
+			<td>  <input type="text" ng-model="employeeAge" ></td>	
+			<td> <input type="text" ng-model="employeeCity" ></td>	
+			<td> <input type="text" ng-model="employeeCountry" ></td>	
+
+		</tr>
+
+		<tr>
+			<td> 
+				
+					<button ng-click="save()"> Add Contenet </button>
+			
+			<td>
+		</tr>
+
+	</tbody>
+
+	 
+	
+	
+
+	</table>
+
+
+
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="employee in employees">
+	  <td>{{employee.id  }}</td>
+        <td>{{employee.Firstname }}</td>
+	<td>{{employee.Lastname }}</td>        
+	<td>{{employee.Age }}</td>        
+	<td>{{employee.City }}</td>        
+	<td>{{employee.Country }}</td>   
+	<td>{{$index}}</td>   
+
+	
+    <td> <button ng-click="edit(employee,$index)"> Edit </button> </td>
+	<td> <button ng-click="delete(employee, $index)"> Delete </button> </td>
+	 
+
+	
+
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+</body>
+</html>
