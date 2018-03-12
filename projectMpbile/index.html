@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script>
+
+
+
+$(document).on("pageinit",function(event)
+{
+
+	alert(" Product Initialized");
+
+	$("#Product").bind("click mouseover mouseout",function(event,ui)
+	{
+		alert(" Product Triggered" + event);
+	
+	});
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+</script>
+</head>
+<body>
+
+
+
+<div data-role="page"  id="Home">
+  <div data-role="header" data-position="fixed">
+  
+    
+      <div data-role="controlgroup" data-type="horizontal">
+	  <img src="facebook_logo.png" style="float:left;"> </img>
+
+	<a href="#Home" class="ui-btn">Home</a>
+	<a href="#About" class="ui-btn">About US</a>
+	<a href="#Contact" class="ui-btn">Contact Us</a>
+	</div>
+   <br>
+   <div data-role="nav-bar" style="background-color:red;">
+	
+		<a  id="Product"  data-role="button"   class="ui-btn-active"> Product  </a>
+		<a data-role="button"> Supplier  </a>
+		<a data-role="button"> Customer  </a>
+		<a data-role="button"> Aby tab  </a>
+   
+   
+   </div>
+   
+   
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  
+   	This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  
+   	This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  
+   	This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  
+   	This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  
+   	This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  This is Home Page Content </br>
+  
+   	
+   	
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>Footer Text In Dialog</h1>
+  </div>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page"  id="About">
+  <div data-role="header">
+  
+      <div data-role="controlgroup" data-type="horizontal">
+		<a href="#About" class="ui-btn">About US</a>
+		<a href="#Home" class="ui-btn">Home</a>
+		<a href="#Contact" class="ui-btn">Contact Us</a>
+	</div>
+   
+   
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+  This is About Page Content </br>
+   	
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text In Dialog</h1>
+  </div>
+</div> 
+
+
+
+<div data-role="page"  id="Contact">
+  <div data-role="header">
+  
+      <div data-role="controlgroup" data-type="horizontal">
+	  <a href="#Contact" class="ui-btn">Contact Us</a>
+	<a href="#Home" class="ui-btn">Home</a>
+	<a href="#About" class="ui-btn">About US</a>
+	
+	</div>
+   
+   
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+  This is Contact Page Content </br>
+   	
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text In Dialog</h1>
+  </div>
+</div> 
+
+
+
+
+
+</body>
+</html>
