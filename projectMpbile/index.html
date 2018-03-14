@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="jquery.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
 
 <script>
 
@@ -15,12 +15,20 @@ $(document).on("pageinit",function(event)
 
 	alert(" Product Initialized");
 
-	$("#Product").bind("click mouseover mouseout",function(event,ui)
+	$("#Product").bind("click",function(event,ui)
 	{
 		alert(" Product Triggered" + event);
 	
 	});
 
+	$("#laptop").bind("click",function(event,ui)
+	{
+		alert(" Laptop  is selected ");
+		
+		
+	
+	});
+	
 
 
 
@@ -68,73 +76,39 @@ $(document).on("pageinit",function(event)
 
   <div data-role="main" class="ui-content">
   
+  <h1> An Unordered List <hr> 
   
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
+  <ul data-role="listview">
+	
+		<li> <a href="#" id="laptop"> Laptop   </a>     </li>
+		<li> <a href="#" id="mobile"> Mobile   </a>   </li>
+		<li> <a href="#"> car     </a></li>
+		<li> <a href="#"> A </a></li>
+		
+		
+		
   
-   	This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
+  </ul>
   
-   	This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
   
-   	This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
   
-   	This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
+  <h1> An ordered List <hr> 
   
-   	This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
-  This is Home Page Content </br>
+  <Ol data-role="listview">
+	
+		<li> <a href="#"> DELHI   </a>     </li>
+		<li> <a href="#"> MUMBAI   </a>   </li>
+		<li> <a href="#"> KOLKATTA    </a></li>
+		<li> <a href="#"> CHENNAI </a></li>
+		
+		
+		
+  
+  </Ol>
+  
+  
+  
+  
   
    	
    	
