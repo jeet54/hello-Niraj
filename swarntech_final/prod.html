@@ -1,0 +1,16 @@
+<div ng-controller="myproduct" class="table-responsive">
+    <table  class="table">
+        <tr> 
+            <td> Product Name </td> <td>  Price  </td>  <td>  Image  </td>
+        </tr>
+        <tr>
+            <td>   {{myproductdata.title}}   </td>
+            <td>   {{myproductdata.price}}   </td>
+            <td>  <img src="images/{{myproductdata.image}}"  ng-model="myproductdata">   </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center"> <a href="#!contact">SEND QUERY</a></td>
+        </tr>
+</table>
+</div>
+    
